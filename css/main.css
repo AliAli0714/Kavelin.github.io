@@ -625,3 +625,70 @@ input:focus:-ms-input-placeholder { color:transparent; transition: all .2s linea
 		}
 	}
 }
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+	.title {
+		font-size: 48px;
+	}
+
+	.services {
+		display: block;
+	}
+
+	.src p {
+		margin: 0 auto;
+		margin-bottom: 35px;
+	}
+
+	.row-2 {
+		display: none;
+	}
+
+	.foot-wrapper {
+		display: block;
+		text-align: center;
+	}
+
+	.foot-txt {
+		margin: 25px 0;
+	}
+}
+
+/* 320px - 576px */
+@media screen and (max-width: 576px) {
+	.about {
+		width: 310px;
+	}
+
+	.portfolio-btn {
+		font-size: 18px;
+	}
+
+	.row-1 {
+		display: block;
+	}
+
+	.row-1 img {
+		display: flex;
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.me {
+		max-width: 300px;
+		margin: 0 auto;
+	}
+
+	.txt {
+		width: 88%;
+	}
+
+	.more-title {
+		font-size: 24px;
+	}
+
+	.more-text {
+		font-size: 18px;
+	}
+}
